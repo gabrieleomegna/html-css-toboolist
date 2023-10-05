@@ -18,12 +18,12 @@ header{
     display: inline-block;
     /* font-size: 2rem; */
     /* border: 2px solid; */
+}
+.vertical-align-title-logo{
     vertical-align: middle;
-
 }
 .logo {
     height: 100%;
-    vertical-align: middle;
     /* border: 2px solid; */
 }
 
@@ -54,11 +54,37 @@ padding: 2.5rem 0 .5rem;
 .check-cross-simbol {
     color: rgb(6, 240, 6);
     border: 1px solid rgb(6, 240, 6);
-    border-radius: 50%;
+    border-radius: 50px;
+}
+.cross-color-red{
+    color: red;
+    border-color: red;
 }
 ul>li {
     padding: 8px;
 }
 .tasks {
     padding-top: 1.5rem;
+}
+.ul-not-button{
+    color: white;
+    font-size: 10px;
+    background-color: rgb(74, 183, 255);;
+    padding: .3rem;
+    border-radius: 30px;
+}
+.color-violet {
+    background-color:#663399 ;
+}
+.color-purple {
+    background-color: #FF69B4;
+}
+.color-light-green {
+    background-color: #9ACD32;
+}
+.color-green {
+    background-color: #32CD32;
+}
+.color-orange {
+    background-color: orange;
 }
