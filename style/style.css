@@ -1,3 +1,4 @@
+/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -7,13 +8,15 @@
 body{
     font-family: Arial, Helvetica, sans-serif;
 }
+
+/* Layout header */
 header{
     /* border: 2px solid red; */
     padding: 1rem 1.5rem;
 }
 #title {
     display: inline-block;
-    font-size: 2rem;
+    /* font-size: 2rem; */
     /* border: 2px solid; */
     vertical-align: middle;
 
@@ -23,6 +26,33 @@ header{
     vertical-align: middle;
     /* border: 2px solid; */
 }
+
+/* Layout main */
 main {
+    background-color: #F8F8F8;
 /* border: 2px solid red; */
+padding: 2.5rem 0 .5rem;
+}
+.container-main {
+    background-color: white;
+    width: 70%;
+    margin: 2px auto;
+    border-radius: 5%;
+    padding: 1rem 3.5rem;
+}
+.main-header-button {
+    background-color: rgb(74, 183, 255);
+    color: white;
+    border: none;
+    padding: .5rem;
+    border-radius: 12%;
+}
+.unordered-list {
+    list-style: none;
+    padding-left: 1rem;
+}
+.check-cross-simbol {
+    color: rgb(6, 240, 6);
+    border: 1px solid rgb(6, 240, 6);
+    border-radius: 50%;
 }
